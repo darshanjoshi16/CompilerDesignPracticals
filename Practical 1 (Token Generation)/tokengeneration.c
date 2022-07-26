@@ -127,12 +127,14 @@ void parse(char* str)
  
     while (right <= len && left <= right) {
         
+         //it will check if the encountered character is delimiter and it will ignore the space while printing
          if(isDelimiter(str[right]) == true && str[right]!= ' ')
             printf("'%c' IS A VALID DELIMITER\n",str[right]);
         
+        //move further in string if it is not delimiter
         if (isDelimiter(str[right]) == false)
             right++;
- 
+        //if it encounter the delimiter then it will check for further functionalities
         if (isDelimiter(str[right]) == true && left == right) {
             if (isOperator(str[right]) == true)
                 printf("'%c' IS AN OPERATOR\n", str[right]);
