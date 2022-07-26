@@ -126,6 +126,10 @@ void parse(char* str)
     int len = strlen(str);
  
     while (right <= len && left <= right) {
+        
+         if(isDelimiter(str[right]) == true)
+            printf("'%c' IS A VALID DELIMITER\n",str[right]);
+        
         if (isDelimiter(str[right]) == false)
             right++;
  
