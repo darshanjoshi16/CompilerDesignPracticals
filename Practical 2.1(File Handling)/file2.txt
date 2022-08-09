@@ -1,0 +1,2 @@
+Hello its the first part of second practical which is a scanner
+taking data line by line
