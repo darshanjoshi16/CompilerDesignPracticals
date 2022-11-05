@@ -1,0 +1,8 @@
+/* c program Input content */
+void main()
+{
+Int total$,a,b,sum;
+
+//sum done
+sum=a+b;
+}

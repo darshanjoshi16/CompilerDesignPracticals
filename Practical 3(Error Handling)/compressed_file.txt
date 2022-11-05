@@ -1,0 +1,1 @@
+voidmain(){Inttotal$,a,b,sum;sum=a+b;}
