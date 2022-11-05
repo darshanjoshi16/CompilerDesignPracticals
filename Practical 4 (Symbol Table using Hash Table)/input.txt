@@ -1,0 +1,11 @@
+int
+void
+a
+b
+sum
+c
+k
+jij
+ptr
+float
+if
