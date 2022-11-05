@@ -1,0 +1,7 @@
+MAIN()
+{
+INT num;
+SCANF("%d",&num);
+IF(num%2)PRINTF("Odd");
+ELSE PRINTF("Even")
+}
